@@ -22,4 +22,10 @@ npm run preview
 
 ## Deploy
 
-Pushes to `main` automatically deploy to GitHub Pages via GitHub Actions.
+Pushes to `main` build the site and publish the `dist` folder to the `gh-pages` branch.
+
+In GitHub repo **Settings → Pages**, set:
+- **Source:** Deploy from a branch
+- **Branch:** `gh-pages` / `/ (root)`
+
+Live URL: https://sunanth-developer.github.io/urbanscrap/
