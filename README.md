@@ -13,6 +13,8 @@ npm install
 npm run dev
 ```
 
+`npm run dev` restores the dev entry HTML automatically when needed.
+
 ## Build
 
 ```bash
@@ -22,10 +24,6 @@ npm run preview
 
 ## Deploy
 
-Pushes to `main` build the site and publish the `dist` folder to the `gh-pages` branch.
-
-In GitHub repo **Settings → Pages**, set:
-- **Source:** Deploy from a branch
-- **Branch:** `gh-pages` / `/ (root)`
+Pushes to `main` build the site and commit the production `index.html` and `assets/` folder to the repo root. GitHub Pages serves those built files automatically.
 
 Live URL: https://sunanth-developer.github.io/urbanscrap/
